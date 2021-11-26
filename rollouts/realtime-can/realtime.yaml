@@ -56,7 +56,7 @@ spec:
     spec:
       containers:
       - name: realtimeapp
-        image: quay.io/rlam/fluxapp:1.0.2
+        image: quay.io/rlam/fluxapp:1.0.0
         env:
         - name: REDISHOST
           value: "redisapp:6379"
